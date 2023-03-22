@@ -22,23 +22,23 @@ Pergunta:
 
 
 
-a) 1, 3, 5, 7, _ 9 (numeros impares)
+a) 1, 3, 5, 7, _ 
 
-b) 2, 4, 8, 16, 32, 64, __124 (duplica o anterior)
+b) 2, 4, 8, 16, 32, 64, __
 
-c) 0, 1, 4, 9, 16, 25, 36, __49 (soma o anterior com os números impares)
+c) 0, 1, 4, 9, 16, 25, 36, __
 
-d) 4, 16, 36, 64, __ 100
+d) 4, 16, 36, 64, __
 
-e) 1, 1, 2, 3, 5, 8, __13 Fibonaci
+e) 1, 1, 2, 3, 5, 8, __
 
-f) 2,10, 12, 16, 17, 18, 19, __200
+f) 2,10, 12, 16, 17, 18, 19, __
 
 Resposta:
 A) 9 (Explicação: Números ímpares);
 B) 124 (Explicação: Duplica ou multiplica por 2 o anterior);
 C) 49 (Explicação: Soma o anterior com os números ímpares);
-D) 100
+D) 100 (Progressão aritimetica, razão da sequencia é 8, onde soma o anterior com a razão)
 E) 13 (Explicação: Fibonnaci);
 F) 200 (Explicação: Números que começa com "D", dois, dez, ..., duzentos);
 
