@@ -1,0 +1,93 @@
+Questão 1
+Pergunta:
+1) Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+enquanto K < INDICE faça
+{
+K = K + 1;
+SOMA = SOMA + K;
+}
+imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+Respota: 91
+(Devido ao loop acrescentar uma 'posição' 13 vezes, certo que será a soma de 1 a 13)
+
+
+Questão 3
+Pergunta:
+3) Descubra a lógica e complete o próximo elemento:
+
+
+
+a) 1, 3, 5, 7, _ 9 (numeros impares)
+
+b) 2, 4, 8, 16, 32, 64, __124 (duplica o anterior)
+
+c) 0, 1, 4, 9, 16, 25, 36, __49 (soma o anterior com os números impares)
+
+d) 4, 16, 36, 64, __ 100
+
+e) 1, 1, 2, 3, 5, 8, __13 Fibonaci
+
+f) 2,10, 12, 16, 17, 18, 19, __200
+
+Resposta:
+A) 9 (Explicação: Números ímpares);
+B) 124 (Explicação: Duplica ou multiplica por 2 o anterior);
+C) 49 (Explicação: Soma o anterior com os números ímpares);
+D) 100
+E) 13 (Explicação: Fibonnaci);
+F) 200 (Explicação: Números que começa com "D", dois, dez, ..., duzentos);
+
+Questão 4
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. 
+O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de 
+Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na 
+rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+Resposta: 60,9km
+A e B) Primeiro tomamos Ribeirão Preto como PR(Ponto de referencia) e utilizando equação horária:
+X1 = V1 * t 
+X - equação
+v- velocidade
+t -tempo
+
+Como o caminhão já começou 100km longe do PR e se aproxima precisamos da diferença, fica da seguinte forma:
+X2 = 100 - V2*t
+
+Após isto vamos calcular o tempo bruto sem obstaculos:
+t = 100km/80km/h = 1,25 h 
+T - tempo
+100 km - distancia
+80km/h - velocidade
+
+Mas e os pedagios?
+leva 10 min, então convertemos 10min para horas e dá 0,167 = 0,17
+Então o tempo total de viagem é 1,25+0,17=1,42
+E sua velocidade é de:
+v2 = 100km/1,42h = 70,6 km/h
+
+Agora precisamos saber a diferença dos pontos de referencia:
+X1 = X2 ou
+
+x1 / v1 = x - 100km / -v2 (substituindo e alterando posições)
+
+X = v1 * 100km / v1 + v2 => 110km/h * 100km/ 110km/h + 70,6km/h
+(Multiplicado velocidade vezes distancia e dividido pelas duas velocidades,
+110km/h velocidade indicada no enunciado,)
+X = 60,9km
+
+
+
+
